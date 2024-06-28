@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container-title-produtos-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.container-todos-produtos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+}
+.container-title-produtos{
+    margin-top: 50px;
+    font-size: 35px;
+    text-align: center;
+    
+}
+.container-produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.produto{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    flex-wrap: wrap;
+}
+.title-produto h2{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+.preco{
+    display: flex;
+    flex-wrap: wrap;
+}
+.preco span{
+    text-decoration: line-through;
+    color: #767676;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: -40px;
+}
+.container-preco-avaliacoes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.avaliacoes{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.avaliacoes img{
+    width: 28px;
+    height:28px;
+}
+.avaliacoes p{
+    font-family: 'Lato';
+    text-decoration: underline;
+    padding: 2px;
+}
+.button-whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button-whatsapp button {
+    width: 80%;
+    height: 42px;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    box-shadow: #333333 0px 0px 0px 0px, #333333 0px 4px 2px 0.2px;
+    background-color: #45c260;
+    padding: 8.5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    border: solid 0px;
+    transition: 0.9s all;
+}
+
+.button-whatsapp button:hover {
+    background-color: #24e04c;
+    width: 100%;
+    opacity: 0.9;
+}
+.video{
+  width: 100%;
+  height: 100%;
+}
+.img-produto{
+  border-radius: 20px; 
+}
+.sc-gzVnrw.gqFfkb{
+    display: flex;
+    height: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.ver-mais-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.ver-mais-container .ver-mais-button{
+    width: 317px;
+    height: 42px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight:bolder;
+    font-family: 'Lato';
+    background-color: #333333; /* Cor de fundo original do box-shadow */
+    box-shadow: #45c260 0px 5px 1px 1px, #45c260 0px 4px 2px 0.2px;
+    color: white;
+    transition: 1s  all;
+}
+.ver-mais-button:hover{
+    background-color: #555555; /* Um tom mais claro de cinza para o efeito hover */
+    box-shadow: #39a44f 0px 0px 0px 0px, #39a44f 0px 4px 2px 0.2px;
+}

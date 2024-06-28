@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 60%;
+}
+nav {
+   display: flex;
+   align-items: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 60px;
+}
+
+li {
+    margin: 0 15px;
+    position: relative;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+    display: block;
+}
+
+li::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #45c260;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 100%;
+}
+.button-whatsapp-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 20%;
+    padding:20px;
+}
+.button-whatsapp-header button {
+    width: 90%;
+    height: 42px;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    box-shadow: #333333 0px 0px 0px 0px, #333333 0px 4px 2px 0.2px;
+    background-color: #45c260;
+    padding: 8.5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    border: solid 0px;
+    transition: 0.9s all;
+}
+.button-whatsapp-header button:hover {
+    background-color: #24e04c;
+    width: 100%;
+    opacity: 0.9;
+}

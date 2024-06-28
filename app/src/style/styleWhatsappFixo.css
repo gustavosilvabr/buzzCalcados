@@ -1,0 +1,22 @@
+.button-whatsapp-container{
+    position: fixed;
+    bottom: 20px;
+    right: 70px;
+}
+.buttonWhatsappFixo{
+    all: unset;
+    cursor: pointer;
+    transition: 0.9s all;
+    width: 10px;
+}
+.button-whatsapp-container button  img{
+    transition: 0.9s all;
+    width: 70px;
+}
+.button-whatsapp-container button  img:hover{
+    width: 75px;
+}
+.buttonWhatsappFixo:hover{
+    opacity: 0.8;
+
+}
