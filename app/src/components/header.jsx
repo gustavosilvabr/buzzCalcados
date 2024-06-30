@@ -1,4 +1,4 @@
-import imgLogo from "../img/imgLogo.png";
+import imgLogo from "../img/logo.png";
 import "../style/styleHeader.css";
 
 export default function Header() {
