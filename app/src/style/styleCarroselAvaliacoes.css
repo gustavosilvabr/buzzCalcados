@@ -1,7 +1,71 @@
 .container-carrosel{
     margin-top: 110px;
 }
+.container-carrosel-avaliacoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-cards{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
 .title-avaliacoes{
     text-align: center;
     font-size: 30px;
+}
+.img-avaliacao{
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 100%;
+}
+.container-card{
+    border: 2px solid #55B76B;
+    width: 360px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.container-img-nome{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+.ativo{
+    display: flex;
+    background-color: green;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    align-self: flex-end;
+    margin: 18px 18px 0px 0px;
+}
+.nome{
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+.text{
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Lato';
+    position: relative;
+    bottom: 20px;
+}
+.avaliacao{
+    align-self: flex-start;
+}
+.container-av-em{
+    display:flex;
+    justify-content: space-between;
+    width: 90%;
+    
 }
