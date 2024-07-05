@@ -1,0 +1,36 @@
+.sessao-produto-unico{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.container-img{
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+}
+.container-text-button{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:space-between;
+}
+.title-produto-unico{
+    width: 690px;
+    font-size: 33px;
+    position: relative;
+    bottom: 50px;
+}
+.container-preco-avaliacoes-unico{
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+    font-size: 30px;
+    
+}
+.container-preco-avaliacoes-unico span{
+    position: relative;
+    top: 10px;
+    font-size: 28px;
+}

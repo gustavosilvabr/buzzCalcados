@@ -7,6 +7,7 @@ import img06 from './img/imgProduto06.png'
 import video01 from './img/video01.mp4'
 import video02 from './img/video02.mp4'
 import video03 from './img/video03.mp4'
+import imgPerfilAvaliacao01 from './img/imgPerfilAvaliacao.jpg'
 export const bd =[
     {
         id:1,
@@ -107,4 +108,11 @@ export const bd =[
         img3:img03,
         video: video03
     },
+]
+export const bdAvaliacoes =[
+    {
+        img:imgPerfilAvaliacao01,
+        nome:'Gabriela',
+        avaliacao:'Produto de qualidade gostei bastante vou comprar outra futuramente',
+    }
 ]

@@ -1,4 +1,5 @@
 import Banner from './components/banner'
+import CarroselAvaliacoes from './components/carroselAvaliacoes';
 import Header from './components/header';
 import SectionProdutoUnico from './components/sectionProdutoUnico';
 import SectionProdutos from './components/sectionProdutos';
@@ -14,6 +15,7 @@ function App() {
       <SectionProdutos/>
       <WhatsappFixo/>
       <SectionProdutoUnico/>
+      <CarroselAvaliacoes/>
     </>
   ) 
 }
