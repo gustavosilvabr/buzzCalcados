@@ -1,4 +1,6 @@
+
 .container-carrosel{
+
     margin-top: 110px;
 }
 .container-carrosel-avaliacoes{
@@ -68,4 +70,12 @@
     justify-content: space-between;
     width: 90%;
     
+}
+
+.slider-container{
+
+    margin: 0px 200px;
+}
+.slider-container >div{  
+
 }
